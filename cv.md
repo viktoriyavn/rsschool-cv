@@ -2,6 +2,8 @@
 
 ## Contacts
 - Location: Astana, Kazakhstan
-- Phone: +77476938620
 - Email: nyuvv42a@gmail.com
 - GitHub: viktoriyavn
+
+## Education
+- 2015 - 2019 L.N. Gumilyov Eurasian National University, Faculty of Information and Communication Technology
