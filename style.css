@@ -81,6 +81,10 @@ h2{
     margin-left: 10px;
 }
 
+.project-link{
+    text-decoration: none;
+}
+
 .code{
     background-color: #f7f5f5;
     max-width: 500px;
