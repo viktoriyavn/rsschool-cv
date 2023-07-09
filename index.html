@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Josefin+Sans:wght@500&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <title>rsschool-cv</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <a href="#Contacts">Contacts</a>
+            <a href="#Summary">Summary</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Code">Code</a>
+            <a href="#Courses">Courses</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Education">Education</a>
+            <a href="#Languages">Languages</a>
+        </nav>
+    </div>
+
+</header>
+<main class="main-container">
+    <section class="section">
+        <img class="photo" alt="Photo" src="./assets/myphoto.jpg">
+        <h1>Nyu Viktoriya</h1>
+    </section>
+    <section class="section" id="Contacts">
+        <div>
+            <h2>Contacts</h2>
+            <ul>
+                <li>Email: nyuvv42a@gmail.com</li>
+                <li>Discord: Viktoriya#9317</li>
+                <li>GitHub: viktoriyavn</li>
+                <li>Phone: +7-747-693-86-20</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section" id="Summary">
+        <div>
+            <h2>Summary</h2>
+            <p class="summary">
+                I graduated Computing Technology and Software Department and worked as a consultant in EY (IT Risk Department).<br> My main hobby is learning new technologies.<br> I enjoy listening to rock music and reading science fiction.<br> I want to develop professionally and contribute to improving the world around me.
+            </p>
+        </div>
+    </section>
+    <section class="section" id="Skills">
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Node.js</li>
+                <li>Manual software testing</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section"  id="Code">
+        <div>
+            <h2>Code</h2>
+            <p class="code">
+                <code>
+                    const {chromium} = require('playwright');<br>
+                    (async () => {<br>
+                    const browser = await chromium.launch({<br>
+                    headless:false })<br>
+                    const currentContext = await browser.newContext();<br>
+                    const page = await currentContext.newPage();<br>
+                    await page.goto('https://uppy.io/examples/dashboard/');<br>
+                    await page.click('[id="opts-DashboardInline"]');<br>
+                    let checkboxes = await page.evaluate(() => {<br>
+                    let checkBox1 = document.getElementById('opts-DashboardInline');<br>
+                    return {<br>
+                    checkbox:checkBox1<br>
+                    }; }); })();
+                </code>
+            </p>
+        </div>
+    </section>
+    <section class="section" id="Courses">
+        <div>
+            <h2>Courses</h2>
+            <ul>
+                <li>Software Functional Testing</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section" id="Projects">
+        <div>
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                   <a class="project-link" href="https://github.com/viktoriyavn/Playwright-Node.js-example">Playwright+Node.js example</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="section" id="Education">
+        <div>
+            <h2>Education</h2>
+            <ul>
+                <li>2015 - 2019 L.N. Gumilyov Eurasian National University, Faculty of Information and Communication Technology</li>
+            </ul>
+        </div>
+    </section>
+    <section class="section" id="Languages">
+        <div>
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>Kazakh - A2</li>
+                <li>English - B2</li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+        <a class="github-link"  href="https://github.com/viktoriyavn">GitHub</a>
+        <a class="rsschool-logo" href="https://rs.school/js-stage0/" >
+            <img alt="Logo" src="./assets/rs_school_js.svg">
+        </a>
+        <p class="copyright">&copy; 2023 Viktoriya Nyu</p>
+</footer>
+</body>
+</html>
